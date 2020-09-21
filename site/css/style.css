@@ -31,7 +31,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
 
-    background: rgb(168, 192, 128);
+    background: url("/site/pics/fone.jpg") center no-repeat;
+    -webkit-background-size: cover ;
+    background-size: cover;
 }
 
 
@@ -92,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 3px;
 
-    background-color: rgb(35, 80, 33);
+    background-color: rgb(133, 175, 131);
     opacity: 0;
     position: absolute;
     top: 100%;
@@ -103,23 +105,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link:hover {
-    color: rgb(35, 80, 33);
+    color: rgb(133, 175, 131);
 }
 
 .nav__link:hover::after {
     opacity: 1;
 }
 
-/* 
+/*......menuVertical.......
+.........................*/
+
+
 #menuVertical{
 	width: 71px;
 	height: auto;
 	position: fixed;
 	z-index: 5;
 	top: 79px;
-	transition: .3s;
+	transition: .2s;
 }
 
+/*menu right part + menu*/
 #menuVertical ul{
 	display: block;
 	width: 54px;
@@ -130,11 +136,12 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 }
 
-#menuVertical ul li{
+/*right part menu*/
+ #menuVertical ul li{
 	display: block;
 	width: 175px;
 	position: relative;
-}
+} 
 
 #menuVertical ul li a{
 	position: relative;
@@ -142,22 +149,20 @@ h1, h2, h3, h4, h5, h6 {
 	width: 198px;
 	height: auto;
 	box-sizing: border-box;
-	font-size: 16px;
+	font-size: 15px;
 	text-transform: uppercase;
-	font-weight: bold;
 	color: #ccc;
 	line-height: 2em;
 	padding: 10px 15px;
-	background: rgb(4, 52, 65);
+	background: rgb(35, 80, 33);
 	text-decoration: none;
-	text-shadow: 2px 2px 3px #222;
 }
 
 
 
 #menuVertical ul li a:hover,
 #menuVertical ul li:hover a{
-	background: rgb(30, 60, 67);
+	background:rgb(20, 53, 34);
 	color: #fff;
 }
 
@@ -181,10 +186,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #menuVertical ul li ul li a:hover{
-	background: rgb(38, 79, 88);
+	background: rgb(9, 39, 22);
 	color: #fff;
 }
-
+/* 
 .menu{
 	position: absolute;
 	width: 198px;
@@ -208,14 +213,5 @@ h1, h2, h3, h4, h5, h6 {
 	color: rgb(52, 100, 113);
 	text-align: center;
 	padding-top: 22px;
-}
-
-.img_n{
-	transition: .3s;
-}
-
-.img_n:hover{
-	margin-left: 5px;
-	transition: .3s;
 }
  */
