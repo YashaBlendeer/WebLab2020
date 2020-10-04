@@ -1,0 +1,122 @@
+<html>
+<head>
+<style>
+.mainmenubtn {
+    background-color: #A95627;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 1rem;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+.dropdown-child {
+    display: none;
+    background-color: #D4A36B;
+    color: white;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+
+}
+.string {
+  white-space: pre;
+}
+.layer1 {
+    background: white;
+    border: 1.2px  black;
+    padding: 195px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 25%;
+   }
+
+
+  p { overflow: scroll;
+    width: 1050px;
+    height: 576px;
+    padding: 22px;
+    border: solid 1px black; }
+
+
+  #text {   top: 12px;
+    left: 170px;
+    bottom: 0; right: 0; }
+  #menuVertical ul li a{
+    	position: relative;
+    	display: block;
+    	width: 198px;
+    	height: auto;
+    	box-sizing: border-box;
+    	font-size: 15px;
+    	text-transform: uppercase;
+    	color: #ccc;
+    	line-height: 2em;
+    	padding: 10px 15px;
+    	background: rgb(35, 80, 33);
+    	text-decoration: none;
+    }
+</style>
+</head>
+
+<body>
+  ЗВІТИ  З ЛАБОРАТОРНИХ РОБІТ З ДИСЦИПЛІНИ « РОЗРОБЛЕННЯ WEB-ЗАСТОСУВАННЬ»
+  <div class="dropdown">
+    <button class="mainmenubtn">Лабораторна робота №1</button>
+    <div class="dropdown-child">
+      <a href="page2.html">Опис предметного середовища</a>
+      <a href="page3.html">Постановка задачі програми</a>
+      <a href="page1.html">Постновка задачі ЛР</a>
+      <a href="titulka.html">Структура документа</a>
+      <ul>
+        <li><a href="page41.html">HTML-код ТАБЛИЦЬ</a></li>
+        <li><a href="page42.html">HTML-код ФОРМИ</a></li>
+        <li><a href="page43.html">HTML-код ЗОБРАЖЕННЯ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="mainmenubtn">Лабораторна робота №2</button>
+    <div class="dropdown-child">
+    <a href="page13.html">Постановка задачі ЛР</a>
+      <a href="page5.html">Списки</a>
+      <a href="page6.html">Індентифікатори</a>
+      <a href="page7.html">Відступи</a>
+      <a href="page8.html">Плаваючі елементи</a>
+      <a href="titulka.html">Селектори</a>
+      <ul>
+        <li><a href="page10.html">Селектори тегу і класу</a></li>
+        <li><a href="page11.html">Інші селектори</a></li>
+        <li><a href="page12.html">Группування селекторів</a></li>
+      </ul>
+    </div>
+  </div>
+<center>
+<div id="text"><p class="string">
+  h2,
+  h3,
+  h1,
+  h5,
+  h6 {
+    font-family: "Calibri";
+    margin: 0;
+  }
+     <img src="pics/1.png" alt="table">
+</p></div>
+</body>
+</html>
